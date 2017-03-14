@@ -1,7 +1,7 @@
 .custbody {
   height: 100%;
   max-height: 100%;
-  font-family: 'Fbreforma (1)', sans-serif;
+  font-family: reformanormal, sans-serif;
 }
 
 .bodyimage {
@@ -44,19 +44,19 @@
   padding-top: 0%;
   direction: rtl;
   color: #9fd143;
-  font-size: 85px;
-  font-weight: 600;
+  font-size: 100pt;
+  font-weight: 400;
   text-align: center;
-  letter-spacing: 10px;
 }
 
 .subheadline {
+  margin-top: 34px;
   margin-right: -61px;
+  font-family: 'reforma light', sans-serif;
   color: #fff;
-  font-size: 45px;
+  font-size: 48.36pt;
   font-weight: 400;
   text-align: center;
-  letter-spacing: 8px;
 }
 
 .playcontainer {
@@ -67,8 +67,8 @@
   position: relative;
   width: 90px;
   height: 90px;
-  margin-top: -80px;
-  margin-left: 281px;
+  margin-top: -84px;
+  margin-left: 304px;
   padding: 0px;
   float: left;
   background-color: transparent;
@@ -87,6 +87,10 @@
   margin-left: 0px;
   float: right;
   background-size: 250px;
+}
+
+.subcontainer {
+  margin-top: 6px;
 }
 
 .hoverblock {
@@ -170,13 +174,16 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  height: 116px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 33px;
   float: right;
   direction: rtl;
+  font-family: 'reforma light', sans-serif;
   color: #204e77;
-  font-size: 45px;
-  font-weight: 400;
+  font-size: 48pt;
+  line-height: 44pt;
+  font-weight: 100;
 }
 
 .questionh1.je {
@@ -193,14 +200,18 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   width: 100%;
-  margin-top: -2px;
-  margin-bottom: 3px;
+  height: 60pt;
+  margin-top: -4px;
+  margin-bottom: 0px;
   padding-right: 35px;
   direction: rtl;
+  font-family: 'reforma light', sans-serif;
   color: #279e75;
-  font-size: 35px;
-  font-weight: 400;
+  font-size: 30pt;
+  line-height: 30pt;
+  font-weight: 100;
 }
 
 .answer.right {
@@ -618,10 +629,9 @@
 
 .radiobutton {
   width: 100%;
-  height: 30px;
-  margin-top: 6px;
+  height: 40pt;
+  margin-top: 30px;
   margin-right: 0%;
-  margin-bottom: 30px;
   padding-left: 0px;
   float: right;
   direction: rtl;
@@ -651,7 +661,7 @@
 }
 
 .radiobutton.new {
-  margin-top: 85px;
+  margin-top: 43px;
 }
 
 .radiobutton.new.shoham3 {
@@ -826,10 +836,11 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 50%;
-  height: 90%;
-  margin-top: 3%;
-  margin-left: 25%;
+  width: 60%;
+  height: 75%;
+  margin-top: 7%;
+  margin-bottom: 10%;
+  margin-left: 20%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1166,7 +1177,7 @@
   width: 15%;
   height: 20%;
   margin-top: 1px;
-  margin-left: -18px;
+  margin-left: -8px;
   padding-top: 0px;
   padding-left: 0px;
   float: right;
@@ -1212,10 +1223,11 @@
   display: flex;
   width: 70%;
   margin-top: -5px;
-  margin-right: 22px;
+  margin-right: 33px;
   float: right;
   direction: rtl;
   color: #204e77;
+  font-size: 30pt;
   font-weight: 400;
   text-align: right;
 }
@@ -1237,8 +1249,9 @@
 }
 
 .subheader.red.set6 {
-  margin-top: -17%;
-  padding-right: 8%;
+  margin-top: -13%;
+  padding-right: 4%;
+  font-family: reformamedium, sans-serif;
 }
 
 .subheader.red.set6._100 {
@@ -1285,13 +1298,15 @@
 }
 
 .info {
+  overflow: hidden;
   width: 80%;
+  height: 75px;
   margin-top: -63px;
   margin-right: 20%;
   float: right;
   direction: rtl;
   color: #204e77;
-  font-size: 20px;
+  font-size: 20pt;
   line-height: 25px;
   font-weight: 400;
   text-align: right;
@@ -1333,10 +1348,13 @@
 }
 
 .info.set71 {
+  overflow: hidden;
   width: 75%;
-  margin-top: -57px;
-  margin-right: 14%;
+  height: 75px;
+  margin-top: -16px;
+  margin-right: 23px;
   padding-right: 10px;
+  font-size: 20pt;
 }
 
 .info._81 {
@@ -1546,12 +1564,12 @@
 
 .subred {
   margin-top: -51px;
-  margin-right: 22%;
-  padding-right: 10px;
+  margin-right: 19%;
+  padding-right: 0px;
   float: right;
   direction: rtl;
   color: #fa3349;
-  font-size: 25px;
+  font-size: 20pt;
   line-height: 40px;
   font-weight: 400;
   text-align: right;
@@ -1865,8 +1883,9 @@
 }
 
 .form {
-  width: 90%;
-  margin: 6% 5% -11px;
+  width: 100%;
+  margin-top: 6%;
+  margin-bottom: -11px;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
@@ -1898,7 +1917,9 @@
 }
 
 .header {
+  overflow: hidden;
   width: 90%;
+  height: 114px;
   margin-top: 3%;
   margin-right: 5%;
   margin-left: 5%;
@@ -1906,7 +1927,7 @@
 
 .divline {
   width: 90%;
-  margin-top: 83px;
+  margin-top: 72px;
   margin-right: 5%;
   margin-left: 5%;
   -webkit-box-ordinal-group: 2;
@@ -2000,7 +2021,7 @@
 }
 
 .lastdiv {
-  width: 100%;
+  width: 90%;
   margin-right: 5%;
   margin-left: 5%;
   -webkit-box-ordinal-group: 2;
@@ -2040,9 +2061,10 @@
   bottom: 0px;
   width: 10%;
   height: 15%;
-  margin-top: 3.5%;
-  margin-right: 13%;
-  font-family: 'Fbreforma (1)', sans-serif;
+  margin-top: 7.5%;
+  margin-right: 7.5%;
+  font-family: reformanormal, sans-serif;
+  font-weight: 400;
 }
 
 .linkx {
@@ -2050,7 +2072,6 @@
 }
 
 .linkx.w--current {
-  padding-top: 0px;
   color: #fff;
   font-size: 35px;
   text-decoration: none;
@@ -2324,7 +2345,7 @@
 }
 
 .discoveranswer {
-  position: fixed;
+  position: absolute;
   right: 0px;
   bottom: 0px;
   display: -webkit-box;
@@ -2333,9 +2354,8 @@
   display: flex;
   width: 250px;
   height: 13%;
-  margin-top: 0%;
-  margin-right: 26%;
-  margin-bottom: 4%;
+  margin-right: 5%;
+  margin-bottom: 5%;
   padding-left: 0px;
   background-color: transparent;
   background-image: url('../images/next_2.png');
@@ -2363,7 +2383,8 @@
 
 .nextq {
   position: fixed;
-  left: 22.5%;
+  left: 17%;
+  right: 0px;
   bottom: 10%;
   width: 100px;
   height: 100px;
@@ -2389,15 +2410,53 @@
   background-repeat: no-repeat;
 }
 
+.divform {
+  width: 90%;
+  margin-top: -49px;
+  margin-right: 5%;
+}
+
+.popup2 {
+  position: fixed;
+  width: 60%;
+  height: 90%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 20%;
+  border: 3px solid #279e75;
+  background-color: #fff;
+}
+
+.divformright {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.divxright {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 10%;
+  height: 20%;
+  margin-top: 3.5%;
+  margin-right: 7.5%;
+}
+
 @font-face {
-  font-family: 'Fbreforma (1)';
+  font-family: 'reformanormal';
   src: url('../fonts/FbReforma-Regular-1.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: 'sans-serif font';
+  font-family: 'reformamedium';
   src: url('../fonts/ReformaMedium.ttf') format('truetype');
   font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'reforma light';
+  src: url('../fonts/ReformaLight.ttf') format('truetype');
+  font-weight: 300;
   font-style: normal;
 }
