@@ -187,7 +187,6 @@
 }
 
 .questionh1.je {
-  margin-top: 2%;
   font-size: 40px;
 }
 
@@ -1054,11 +1053,8 @@
   z-index: 1100;
   display: none;
   margin-left: 0%;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../images/imageend.png');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../images/imageend.png');
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7));
 }
 
 .questiondiv.bs {
@@ -1169,8 +1165,7 @@
 .icon-v {
   position: relative;
   width: 15%;
-  height: 20%;
-  margin-top: 1px;
+  margin-top: 17px;
   margin-left: -8px;
   padding-top: 0px;
   padding-left: 0px;
@@ -1216,7 +1211,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 70%;
-  margin-top: -5px;
+  margin-top: 25px;
   margin-right: 33px;
   margin-bottom: 0px;
   float: right;
@@ -1235,7 +1230,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 85%;
-  margin-top: -13%;
+  margin-right: 0px;
   padding-right: 10px;
   float: left;
   font-family: reformamedium, sans-serif;
@@ -1247,7 +1242,10 @@
 }
 
 .subheader.red.set6 {
-  margin-top: -13%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: reformamedium, sans-serif;
 }
 
@@ -1754,7 +1752,7 @@
   display: none;
   width: 100%;
   height: 100%;
-  background-image: url('../images/באר-שבע-משולש.png');
+  background-image: url('../images/BEERSHEVA.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1768,7 +1766,7 @@
   display: none;
   width: 100%;
   height: 100%;
-  background-image: url('../images/ירושלים-משולש.png');
+  background-image: url('../images/JERUSALEM.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1782,7 +1780,7 @@
   display: none;
   width: 100%;
   height: 100%;
-  background-image: url('../images/נתניה-משולש.png');
+  background-image: url('../images/NATANYA.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1796,7 +1794,7 @@
   display: none;
   width: 100%;
   height: 100%;
-  background-image: url('../images/פתח-תקוה-משולש.png');
+  background-image: url('../images/PT.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1809,7 +1807,7 @@
   display: none;
   width: 100%;
   height: 100%;
-  background-image: url('../images/כפר-סבר-משולש.png');
+  background-image: url('../images/KFARSABA.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1823,7 +1821,7 @@
   display: none;
   width: 100%;
   height: 100%;
-  background-image: url('../images/שוהם-משולש.png');
+  background-image: url('../images/SHOHAM.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1837,7 +1835,7 @@
   display: none;
   width: 100%;
   height: 100%;
-  background-image: url('../images/אשדוד-משולש.png');
+  background-image: url('../images/ASHDOD.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1851,7 +1849,7 @@
   display: none;
   width: 100%;
   height: 100%;
-  background-image: url('../images/רחובות-משולש-.png');
+  background-image: url('../images/REHOVOT.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1865,7 +1863,7 @@
   display: none;
   width: 100%;
   height: 100%;
-  background-image: url('../images/קרית-שמונה-משולש.png');
+  background-image: url('../images/KSHMONA.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1907,14 +1905,16 @@
 
 .header {
   overflow: visible;
-  width: 90%;
   height: auto;
-  margin: 25px 25px 30px 5%;
+  margin: 25px 25px 30px;
 }
 
 .divline {
+  position: absolute;
   width: 90%;
-  margin: -20px 5% 25px;
+  margin-top: -20px;
+  margin-right: 5%;
+  margin-left: 5%;
   -webkit-box-ordinal-group: 2;
   -webkit-order: 1;
   -ms-flex-order: 1;
@@ -1943,6 +1943,7 @@
 }
 
 .divwrong {
+  height: 100px;
   margin-right: 5%;
   margin-left: 5%;
   -webkit-box-ordinal-group: 2;
@@ -1998,7 +1999,7 @@
 }
 
 .divright.set30 {
-  margin-top: -3%;
+  margin-top: 16px;
 }
 
 .divright.set106 {
@@ -2353,6 +2354,7 @@
   display: flex;
   width: 100px;
   height: 100px;
+  margin-left: 2px;
   background-color: transparent;
   background-image: url('../images/Untitled.png');
   background-position: 50% 50%;
@@ -2395,8 +2397,8 @@
 
 .divformright {
   height: auto;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
 .divxright {
@@ -2448,8 +2450,10 @@
 }
 
 .subwrong {
-  margin-top: 40px;
-  margin-right: 17%;
+  position: relative;
+  margin-top: 0px;
+  margin-right: 17px;
+  float: right;
   color: #fa3349;
   font-size: 25px;
   text-align: right;
@@ -2632,6 +2636,58 @@
   height: 100%;
   background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7));
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7));
+}
+
+.divnotavail {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .playsection {
+    display: none;
+  }
+  .playsection.mainpage {
+    display: none;
+  }
+  .playcontainer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .subcontainer {
+    display: block;
+  }
+  .succes {
+    display: none;
+  }
+  .header {
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7));
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7));
+  }
+  .divnotavail {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .divnotavail {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 479px) {
+  .divnotavail {
+    font-size: 25px;
+  }
 }
 
 @font-face {
