@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 <head>
   <meta charset="utf-8">
@@ -20,6 +19,45 @@
     .w-checkbox-input, .w-radio-input {
        transform: scale(2);
     }
+  </style>
+  <style>
+    input[type='radio']:after {
+        width: 10px;
+        height: 10px;
+        border-radius: 15px;
+        top: 0px;
+        left: 0px;
+        position: relative;
+        background-color: #ffffff;
+        background-image: url(https://daks2k3a4ib2z.cloudfront.net/58c10bea756d1fb52cfb4a40/58c86c9fac8b860d491c3b3a_circleGreen.png);
+        content: '';
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+    		background-position-y: 50%;
+        background-size: 60%;
+        visibility: visible;
+        border: 2px solid #279e75;
+    }
+input[type='radio']:checked:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    background-color: #fff;
+    content: '';
+    display: inline-block;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Disc_Plain_red.svg/2000px-Disc_Plain_red.svg.png);
+    visibility: visible;
+    border: 2px solid red;
+    padding: 0px;
+}
   </style>
 </head>
 <body class="custbody">
