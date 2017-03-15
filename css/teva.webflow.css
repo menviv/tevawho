@@ -1,5 +1,6 @@
 .custbody {
   height: 100%;
+  max-height: 100%;
   font-family: reformanormal, sans-serif;
 }
 
@@ -21,19 +22,20 @@
 }
 
 .playsection.mainpage {
-  position: fixed;
+  position: static;
   left: 0px;
   top: 0px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   width: 100%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
   background-color: transparent;
   background-image: url('../images/whitemap.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 .headline {
@@ -120,10 +122,7 @@
   left: 0px;
   bottom: 0px;
   z-index: 1000;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   width: 100%;
   height: 100%;
   margin-top: 0px;
@@ -193,6 +192,7 @@
   font-size: 33pt;
   line-height: 34pt;
   font-weight: 100;
+  text-align: right;
 }
 
 .questionh1.je {
@@ -340,10 +340,7 @@
   right: 0px;
   bottom: 0px;
   z-index: 1000;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   width: 25%;
   height: 20%;
   margin-top: 15%;
@@ -845,15 +842,10 @@
 
 .popup1 {
   position: fixed;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   width: 60%;
   height: 75%;
-  margin-top: 7%;
-  margin-bottom: 10%;
-  margin-left: 20%;
+  margin: 7% 20% 10%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1575,7 +1567,7 @@
   left: 0px;
   top: 0px;
   z-index: 1100;
-  display: none;
+  display: block;
   width: 100%;
   height: 100%;
   -webkit-box-orient: vertical;
@@ -1956,10 +1948,7 @@
 
 .header {
   position: static;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   overflow: visible;
   height: auto;
   margin: 25px 25px 30px;
@@ -2132,7 +2121,7 @@
   width: 10%;
   height: 15%;
   margin-top: 7.5%;
-  margin-right: 7.5%;
+  margin-right: 10%;
   font-family: reformanormal, sans-serif;
   font-weight: 400;
 }
@@ -2399,10 +2388,7 @@
   position: absolute;
   right: 0px;
   bottom: 0px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   width: 250px;
   height: 13%;
   margin-right: 25px;
@@ -2483,18 +2469,15 @@
 }
 
 .divform {
-  width: 90%;
   height: auto;
   margin-top: 0px;
   margin-right: 25px;
+  margin-left: 25px;
 }
 
 .popup2 {
   position: fixed;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   width: 60%;
   height: 90%;
   margin-top: 3%;
@@ -2510,6 +2493,7 @@
 }
 
 .divformright {
+  display: block;
   height: auto;
   margin-right: 25px;
   margin-left: 25px;
@@ -2530,14 +2514,11 @@
   position: fixed;
   top: 0px;
   right: 0px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   width: 10%;
   height: 20%;
   margin-top: 3.5%;
-  margin-right: 7.5%;
+  margin-right: 10%;
 }
 
 .xx {
@@ -2800,6 +2781,11 @@
 
 .form-wrapper {
   position: static;
+}
+
+.form-2 {
+  position: static;
+  width: 100%;
 }
 
 @media (max-width: 991px) {

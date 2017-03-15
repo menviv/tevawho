@@ -13,14 +13,12 @@
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/teva.webflow.css" rel="stylesheet" type="text/css">
   <script src="js/modernizr.js" type="text/javascript"></script>
-  <link href="images/logo32.png" rel="shortcut icon" type="image/x-icon">
-  <link href="images/logo256.png" rel="apple-touch-icon">
   <style>
     .w-checkbox-input, .w-radio-input {
        transform: scale(2);
     }
    .hidden {
-   display: none!important;
+   display: none !important;
    }
       input[type='radio']:after {
           width: 10px;
@@ -91,9 +89,9 @@
       background-position-y: 50%;
       background-size: 60%;
       background-repeat: no-repeat;
-      background-image: url("https://daks2k3a4ib2z.cloudfront.net/58c10bea756d1fb52cfb4a40/58c910ce5d0cc393361671af_red.png");
+      background-image: url("https://daks2k3a4ib2z.cloudfront.net/58c10bea756d1fb52cfb4a40/58c910ce5d0cc393361671af_red.png") !important;;
       visibility: visible;
-      border: 2.5px solid #fa3349;
+      border: 2.5px solid #fa3349 !important;
       padding: 0px;
   }
   </style>
@@ -110,8 +108,8 @@
           <h1 class="questionh1">בטבע טק ובפלנטקס מייצרים חומרי גלם פעילים לתעשיית התרופות. מהו היקף הייצור בישראל?</h1>
         </div>
         <div class="divform">
-          <div class="w-form">
-            <form  name="form" >
+          <div class="w-form" id="FormBS1">
+            <form class="w-clearfix" id="node">
               <div class="radiobutton w-clearfix w-radio" id="BsAn1">
                 <input class="button w-radio-input" data-name="Radio" id="button" name="radio" type="radio" value="BsAn1">
                 <label class="answer w-form-label" for="button">כ- 100 טון</label>
@@ -144,14 +142,14 @@
           <h1 class="questionh1">בטבע טק ובפלנטקס מייצרים חומרי גלם פעילים לתעשיית התרופות. מהו היקף הייצור בישראל?</h1>
         </div>
         <div class="divformright">
-          <div class="form-wrapper w-form">
-            <form  name="form"  >
+          <div class="form-wrapper w-form" id="FormBS2">
+            <form class="w-clearfix" data-name="Email Form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">כ- 100 טון</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button right w-radio-input" data-name="Radio" id="RightRadioButton" name="radio" type="radio" value="Radio 2">
+                <input class="button w-radio-input" data-name="Radio" id="RightRadioButton" name="radio" type="radio" value="Radio 2">
                 <label class="answer right w-form-label" for="RightRadioButton">למעלה מ- 1,000 טון</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -185,10 +183,10 @@
           <h1 class="questionh1">בטבע טק ובפלנטקס מייצרים חומרי גלם פעילים לתעשיית התרופות. מהו היקף הייצור בישראל?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormBS3">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">כ-100 טון</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -227,8 +225,8 @@
           <h1 class="questionh1">בנוסף למרכז ייצור חומרי גלם פעילים לתעשיית התרופות, מה עוד ניתן למצוא בטבע-טק?</h1>
         </div>
         <div class="divform">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormBS4">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="BsAn4">
                 <input class="button w-radio-input" data-name="Radio" id="BsAn-11" name="radio" type="radio" value="BsAn4">
                 <label class="answer w-form-label" for="BsAn-11">מרכז מבקרים חוויתי ואינטראקטיבי</label>
@@ -263,10 +261,10 @@
           <h1 class="questionh1">בנוסף למרכז ייצור חומרי גלם פעילים לתעשיית התרופות, מה עוד ניתן למצוא בטבע-טק?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormBS5">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer right w-form-label" for="radio">מרכז מבקרים חוויתי ואינטראקטיבי</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -304,10 +302,10 @@
           <h1 class="questionh1">בנוסף למרכז ייצור חומרי גלם פעילים לתעשיית התרופות, מה עוד ניתן למצוא בטבע-טק?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormBS6">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">מרכז מבקרים חוויתי ואינטראקטיבי</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -351,8 +349,8 @@
           <h1 class="questionh1">אתר טבע בירושלים מהווה מרכז מצוינות. באלו תחומים?</h1>
         </div>
         <div class="divform">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormJE1">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="RadioButton1">
                 <input class="button w-radio-input" data-name="Radio" id="RadioButton-2" name="radio" type="radio" value="RadioButton1">
                 <label class="answer w-form-label" for="RadioButton-2">פפטידים, ויטמינים והורמונים</label>
@@ -385,8 +383,8 @@
           <h1 class="questionh1">אתר טבע בירושלים מהווה מרכז מצוינות. באלו תחומים?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormJE2">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
                 <input class="button w-radio-input" data-name="Radio" id="RadioButton-8" name="radio" type="radio" value="RadioButton1">
                 <label class="answer w-form-label" for="RadioButton-8">פפטידים, ויטמינים והורמונים</label>
@@ -428,10 +426,10 @@
           <h1 class="questionh1">אתר טבע בירושלים מהווה מרכז מצוינות. באלו תחומים?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormJE3">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">פפטידים, ויטמינים והורמונים</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -468,8 +466,8 @@
           <h1 class="questionh1">אתר טבע בירושלים הוא נדבך משמעותי במרכז הייצור הגדול ביותר בטבע, הממוקם בישראל. מהו היקף הייצוא של טבע מישראל?</h1>
         </div>
         <div class="divform">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormJE4">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="RadioButton4">
                 <input class="button w-radio-input" data-name="Radio" id="RadioButton-11" name="radio" type="radio" value="RadioButton4">
                 <label class="answer w-form-label" for="RadioButton-11">טבע היצואנית מספר אחת מישראל. ב-5 השנים האחרונות ייצאה החברה מוצרים בהיקף של 100 מיליארד ₪</label>
@@ -504,10 +502,10 @@
           <h1 class="je questionh1">אתר טבע בירושלים הוא נדבך משמעותי במרכז הייצור הגדול ביותר בטבע, הממוקם בישראל. מהו היקף הייצוא של טבע מישראל?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormJE5">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer right w-form-label" for="radio">טבע היצואנית מספר אחת מישראל. ב-5 השנים האחרונות ייצאה החברה מוצרים בהיקף של 100 מיליארד ₪</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -545,10 +543,10 @@
           <h1 class="questionh1">אתר טבע בירושלים הוא נדבך משמעותי במרכז הייצור הגדול ביותר בטבע, הממוקם בישראל. מהו היקף הייצוא של טבע מישראל?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormJE6">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">טבע היצואנית מספר אחת מישראל. ב-5 השנים האחרונות ייצאה החברה מוצרים בהיקף של 100 מיליארד ₪</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -592,8 +590,8 @@
           <h1 class="questionh1">במה מתמחה אתר פלנטקס בנתניה?</h1>
         </div>
         <div class="divform">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormNatanya1">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="RadioNatanya1">
                 <input class="button w-radio-input" data-name="Radio" id="RadioNatanya-2" name="radio" type="radio" value="RadioNatanya1">
                 <label class="answer w-form-label" for="RadioNatanya-2">פיתוח וייצור חומרי גלם פעילים לתעשיית התרופות</label>
@@ -624,10 +622,10 @@
           <h1 class="questionh1">במה מתמחה אתר פלנטקס בנתניה?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormNatanya2">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer right w-form-label" for="radio">פיתוח וייצור חומרי גלם פעילים לתעשיית התרופות</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -665,10 +663,10 @@
           <h1 class="questionh1">במה מתמחה אתר פלנטקס בנתניה?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormNatanya3">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">פיתוח וייצור חומרי גלם פעילים לתעשיית התרופות</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -708,8 +706,8 @@
           <h1 class="questionh1">אחד ממרכזי המו"פ הייחודי של טבע נמצא באתר אביק בנתניה. מה ההבדל בין תרופות ייחודיות לתרופות גנריות?</h1>
         </div>
         <div class="divform">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormNatanya4">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="RadioNatanya4">
                 <input class="button w-radio-input" data-name="Radio" id="RadioNatanya-5" name="radio" type="radio" value="RadioNatanya4">
                 <label class="answer w-form-label" for="RadioNatanya-5">תרופה גנרית היא תרופה כימית בעוד שתרופה ייחודית היא ביולוגית</label>
@@ -740,10 +738,10 @@
           <h1 class="questionh1">אחד ממרכזי המו"פ הייחודי של טבע נמצא באתר אביק בנתניה. מה ההבדל בין תרופות ייחודיות לתרופות גנריות?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormNatanya5">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">תרופה גנרית היא תרופה כימית בעוד שתרופה ייחודית היא ביולוגית</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -781,10 +779,10 @@
           <h1 class="questionh1">אחד ממרכזי המו"פ הייחודי של טבע נמצא באתר אביק בנתניה. מה ההבדל בין תרופות ייחודיות לתרופות גנריות?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormNatanya6">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">תרופה גנרית היא תרופה כימית בעוד שתרופה ייחודית היא ביולוגית</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -827,8 +825,8 @@
           <h1 class="questionh1">בפתח-תקווה פועלות יחידות המטה הגלובליות הבאות:</h1>
         </div>
         <div class="divform">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormPT1">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="RadioPT1">
                 <input class="button w-radio-input" data-name="Radio" id="RadioPT-2" name="Radio" type="radio" value="RadioPT1">
                 <label class="answer w-form-label" for="RadioPT-2">המטה הגלובלי של החברה . זהו גם מקום מושבם של מנכ"ל ויו"ר החברה</label>
@@ -861,10 +859,10 @@
           <h1 class="questionh1">בפתח-תקווה פועלות יחידות המטה הגלובליות הבאות:</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormPT2">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">המטה הגלובלי של החברה . זהו גם מקום מושבם של מנכ"ל ויו"ר החברה</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -902,10 +900,10 @@
           <h1 class="questionh1">בפתח-תקווה פועלות יחידות המטה הגלובליות הבאות:</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormPT3">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">המטה הגלובלי של החברה . זהו גם מקום מושבם של מנכ"ל ויו"ר החברה</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -943,8 +941,8 @@
           <h1 class="questionh1">הנהלת החברה הגדירה את תחומי הליבה של טבע. מהם?</h1>
         </div>
         <div class="divform">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormPT4">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="RadioPT4">
                 <input class="button w-radio-input" data-name="Radio" id="RadioPT-6" name="radio" type="radio" value="RadioPT4">
                 <label class="answer w-form-label" for="RadioPT-6">בריאות האישה, אונקולוגיה וטרשת נפוצה</label>
@@ -977,10 +975,10 @@
           <h1 class="questionh1">הנהלת החברה הגדירה את תחומי הליבה של טבע. מהם?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormPT5">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">בריאות האישה, אונקולוגיה וטרשת נפוצה</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -1018,10 +1016,10 @@
           <h1 class="questionh1">הנהלת החברה הגדירה את תחומי הליבה של טבע. מהם?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormPT6">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">בריאות האישה, אונקולוגיה וטרשת נפוצה</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -1066,8 +1064,8 @@
           <h1 class="questionh1">מה מייחד את הייצור בכפר-סבא?</h1>
         </div>
         <div class="divform">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormKfarSaba1">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="RadioKfar1">
                 <input class="button w-radio-input" data-name="Radio" id="RadioKfar-2" name="radio" type="radio" value="RadioKfar1">
                 <label class="answer w-form-label" for="RadioKfar-2">בכפר-סבא מייצרים מוצרים בטכנולוגיות מתקדמות בייצור יבש, סטרילי וביולוגי</label>
@@ -1098,10 +1096,10 @@
           <h1 class="questionh1">מה מייחד את הייצור בכפר-סבא?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormKfarSaba2">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer right w-form-label" for="radio">בכפר-סבא מייצרים מוצרים בטכנולוגיות מתקדמות בייצור יבש, סטרילי וביולוגי</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -1139,10 +1137,10 @@
           <h1 class="questionh1">מה מייחד את הייצור בכפר-סבא?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormKfarSaba3">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">בכפר-סבא מייצרים מוצרים בטכנולוגיות מתקדמות בייצור יבש, סטרילי וביולוגי</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -1182,8 +1180,8 @@
           <h1 class="questionh1">בכפר-סבא נמצא אחד ממרכזי המו"פ הגנרי הגדולים של טבע. כיצד תורמת הגנריקה של טבע לישראל?</h1>
         </div>
         <div class="divform">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormKfarSaba4">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="RadioKfar4">
                 <input class="button w-radio-input" data-name="Radio" id="RadioKfar-5" name="radio" type="radio" value="RadioKfar4">
                 <label class="answer w-form-label" for="RadioKfar-5">חיסכון של מיליארד ₪ בכל שנה למערכת הבריאות</label>
@@ -1214,10 +1212,10 @@
           <h1 class="questionh1">בכפר-סבא נמצא אחד ממרכזי המו"פ הגנרי הגדולים של טבע. כיצד תורמת הגנריקה של טבע לישראל?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormKfarSaba5">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">חיסכון של מיליארד ₪ בכל שנה למערכת הבריאות</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -1255,10 +1253,10 @@
           <h1 class="questionh1">בכפר-סבא נמצא אחד ממרכזי המו"פ הגנרי הגדולים של טבע. כיצד תורמת הגנריקה של טבע לישראל?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormKfarSaba6">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">חיסכון של מיליארד ₪ בכל שנה למערכת הבריאות</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -1303,8 +1301,8 @@
           <h1 class="questionh1">מה מייצרים באתר טבע בקרית שמונה (מיגדה)?</h1>
         </div>
         <div class="divform">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormKSHMONA1">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="RadioShmona1">
                 <input class="button w-radio-input" data-name="Radio" id="RadioShmona-2" name="radio" type="radio" value="RadioShmona1">
                 <label class="answer w-form-label" for="RadioShmona-2">טבעדפטור - מערכת סגורה הממזערת את החשיפה לחומרים מסוכנים</label>
@@ -1335,10 +1333,10 @@
           <h1 class="questionh1">מה מייצרים באתר טבע בקרית שמונה (מיגדה)?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormKSHMONA2">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer right w-form-label" for="radio">טבעדפטור - מערכת סגורה הממזערת את החשיפה לחומרים מסוכנים</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -1376,10 +1374,10 @@
           <h1 class="questionh1">מה מייצרים באתר טבע בקרית שמונה (מיגדה)?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormKSHMONA3">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">טבעדפטור - מערכת סגורה הממזערת את החשיפה לחומרים מסוכנים</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -1419,8 +1417,8 @@
           <h1 class="questionh1">מה שם הרחוב בו ממוקם אתר טבע בקרית שמונה?</h1>
         </div>
         <div class="divform">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormKSHMONA4">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="RadioShmona4">
                 <input class="button w-radio-input" data-name="Radio" id="RadioShmona-5" name="radio" type="radio" value="RadioShmona4">
                 <label class="answer w-form-label" for="RadioShmona-5">רחוב מיגדה, ע"ש בני המשפחה המייסדת של המפעל: מיכאל, גבריאל ודניאל</label>
@@ -1451,10 +1449,10 @@
           <h1 class="questionh1">מה שם הרחוב בו ממוקם אתר טבע בקרית שמונה?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormKSHMONA5">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">רחוב מיגדה, ע"ש בני המשפחה המייסדת של המפעל: מיכאל, גבריאל ודניאל</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -1492,10 +1490,10 @@
           <h1 class="questionh1">מה שם הרחוב בו ממוקם אתר טבע בקרית שמונה?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormKSHMONA6">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">רחוב מיגדה, ע"ש בני המשפחה המייסדת של המפעל: מיכאל, גבריאל ודניאל</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -1538,8 +1536,8 @@
           <h1 class="questionh1">מה מייחד את המוצרים המיוצרים באשדוד?</h1>
         </div>
         <div class="divform">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormASHDOD1">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="RadioAshdod1">
                 <input class="button w-radio-input" data-name="Radio" id="RadioAshdod-2" name="radio" type="radio" value="RadioAshdod1">
                 <label class="answer w-form-label" for="RadioAshdod-2">כולם בייצור ייבש (טבליות, קפליות וכד')</label>
@@ -1572,8 +1570,8 @@
           <h1 class="questionh1">מה מייחד את המוצרים המיוצרים באשדוד?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormASHDOD2">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="RadioAshdod1">
                 <input class="button w-radio-input" data-name="Radio" id="RadioAshdod-2" name="radio" type="radio" value="RadioAshdod1">
                 <label class="answer w-form-label" for="RadioAshdod-2">כולם בייצור ייבש (טבליות, קפליות וכד')</label>
@@ -1614,8 +1612,8 @@
           <h1 class="questionh1">מה מייחד את המוצרים המיוצרים באשדוד?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormASHDOD3">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="RadioAshdod1">
                 <input class="button w-radio-input" data-name="Radio" id="RadioAshdod-2" name="radio" type="radio" value="RadioAshdod1">
                 <label class="answer w-form-label" for="RadioAshdod-2">כולם בייצור ייבש (טבליות, קפליות וכד')</label>
@@ -1657,8 +1655,8 @@
           <h1 class="questionh1">מהו המוצר בעל היקף הייצור הגדול ביותר במפעל באשדוד ?</h1>
         </div>
         <div class="divform">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormASHDOD4">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="RadioAshdod4">
                 <input class="button w-radio-input" data-name="Radio" id="RadioAshdod-5" name="radio" type="radio" value="RadioAshdod4">
                 <label class="answer w-form-label" for="RadioAshdod-5">אקמולי</label>
@@ -1691,8 +1689,8 @@
           <h1 class="questionh1">מהו המוצר בעל היקף הייצור הגדול ביותר במפעל באשדוד ?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormASHDOD5">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="RadioAshdod4">
                 <input class="button w-radio-input" data-name="Radio" id="RadioAshdod-5" name="radio" type="radio" value="RadioAshdod4">
                 <label class="answer w-form-label" for="RadioAshdod-5">אקמולי</label>
@@ -1732,8 +1730,8 @@
           <h1 class="questionh1">מהו המוצר בעל היקף הייצור הגדול ביותר במפעל באשדוד ?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormASHDOD6">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="RadioAshdod4">
                 <input class="button w-radio-input" data-name="Radio" id="RadioAshdod-5" name="radio" type="radio" value="RadioAshdod4">
                 <label class="answer w-form-label" for="RadioAshdod-5">אקמולי</label>
@@ -1778,8 +1776,8 @@
           <h1 class="questionh1">באתר שוהם פועלים 'טבע ישראל', ס.ל.א &nbsp;והמרלו"ג. מהם עיקרי פעילותם?</h1>
         </div>
         <div class="divform">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormShoham1">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="ShohamRadio1">
                 <input class="button w-radio-input" data-name="Radio" id="ShohamRadio-2" name="radio" type="radio" value="ShohamRadio1">
                 <label class="answer w-form-label" for="ShohamRadio-2">פיתוח וייצור מוצרי הדגל של טבע</label>
@@ -1812,10 +1810,10 @@
           <h1 class="questionh1">באתר שוהם פועלים 'טבע ישראל', ס.ל.א &nbsp;והמרלו"ג. מהם עיקרי פעילותם?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormShoham2">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">פיתוח וייצור מוצרי הדגל של טבע</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -1853,10 +1851,10 @@
           <h1 class="questionh1">באתר שוהם פועלים 'טבע ישראל', ס.ל.א &nbsp;והמרלו"ג. מהם עיקרי פעילותם?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormShoham3">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">פיתוח וייצור מוצרי הדגל של טבע</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -1895,8 +1893,8 @@
           <h1 class="questionh1">במרכז החדשנות של 'טבע ישראל' מתקיימות כמה פעילויות פורצות דרך. מהן?</h1>
         </div>
         <div class="divform">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormShoham4">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="ShohamRadio4">
                 <input class="button w-radio-input" data-name="Radio" id="ShohamRadio-6" name="radio" type="radio" value="ShohamRadio4">
                 <label class="answer w-form-label" for="ShohamRadio-6">הבאת טכנולוגיות ומוצרים חדשניים של טבע ובחינתם בישראל המשמשת כשוק פיילוט</label>
@@ -1929,8 +1927,8 @@
           <h1 class="questionh1">במרכז החדשנות של 'טבע ישראל' מתקיימות כמה פעילויות פורצות דרך. מהן?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormShoham5">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="ShohamRadio4">
                 <input class="button w-radio-input" data-name="Radio" id="ShohamRadio-6" name="radio" type="radio" value="ShohamRadio4">
                 <label class="answer w-form-label" for="ShohamRadio-6">הבאת טכנולוגיות ומוצרים חדשניים של טבע ובחינתם בישראל המשמשת כשוק פיילוט</label>
@@ -1970,10 +1968,10 @@
           <h1 class="questionh1">במרכז החדשנות של 'טבע ישראל' מתקיימות כמה פעילויות פורצות דרך. מהן?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormShoham6">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
+                <input class="button w-radio-input" data-name="Radio" id="radio" name="Radio" type="radio" value="Radio">
                 <label class="answer set300 w-form-label" for="radio">הבאת טכנולוגיות ומוצרים חדשניים של טבע ובחינתם בישראל המשמשת כשוק פיילוט</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
@@ -2016,8 +2014,8 @@
           <h1 class="questionh1">איזה פעילות פיתוח מתקיימת באתר טבע ברחובות?</h1>
         </div>
         <div class="divform">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormREHOVOT1">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="Radio1Rehovot1">
                 <input class="button w-radio-input" data-name="Radio" id="Radio1Rehovot-4" name="radio" type="radio" value="Radio1Rehovot1">
                 <label class="answer w-form-label" for="Radio1Rehovot-4">פיתוח תרופות גנריות</label>
@@ -2050,8 +2048,8 @@
           <h1 class="questionh1">איזה פעילות פיתוח מתקיימת באתר טבע ברחובות?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormREHOVOT2">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="Radio1Rehovot1">
                 <input class="button w-radio-input" data-name="Radio" id="Radio1Rehovot-4" name="radio" type="radio" value="Radio1Rehovot1">
                 <label class="answer w-form-label" for="Radio1Rehovot-4">פיתוח תרופות גנריות</label>
@@ -2091,8 +2089,8 @@
           <h1 class="questionh1">איזה פעילות פיתוח מתקיימת באתר טבע ברחובות?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
-            <form  name="form"  >
+          <div class="w-form" id="FormREHOVOT3">
+            <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="Radio1Rehovot1">
                 <input class="button w-radio-input" data-name="Radio" id="Radio1Rehovot-4" name="radio" type="radio" value="Radio1Rehovot1">
                 <label class="answer w-form-label" for="Radio1Rehovot-4">פיתוח תרופות גנריות</label>
