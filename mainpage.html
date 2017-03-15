@@ -19,45 +19,83 @@
     .w-checkbox-input, .w-radio-input {
        transform: scale(2);
     }
-  </style>
-  <style>
-    input[type='radio']:after {
-        width: 10px;
-        height: 10px;
-        border-radius: 15px;
-        top: 0px;
-        left: 0px;
-        position: relative;
-        background-color: #ffffff;
-        background-image: url(https://daks2k3a4ib2z.cloudfront.net/58c10bea756d1fb52cfb4a40/58c86c9fac8b860d491c3b3a_circleGreen.png);
-        content: '';
-        display: inline-block;
-        background-repeat: no-repeat;
-        background-position-x: 50%;
-    		background-position-y: 50%;
-        background-size: 60%;
-        visibility: visible;
-        border: 2px solid #279e75;
-    }
-input[type='radio']:checked:after {
-    width: 10px;
-    height: 10px;
-    border-radius: 15px;
-    top: 0px;
-    left: 0px;
-    position: relative;
-    background-color: #fff;
-    content: '';
-    display: inline-block;
-    background-position-x: 50%;
-    background-position-y: 50%;
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Disc_Plain_red.svg/2000px-Disc_Plain_red.svg.png);
-    visibility: visible;
-    border: 2px solid red;
-    padding: 0px;
-}
+   .hidden {
+   display: none!important;
+   }
+      input[type='radio']:after {
+          width: 10px;
+          height: 10px;
+          border-radius: 19px;
+          top: 0px;
+          left: 1px;
+          position: relative;
+          background-color: #fff;
+          content: '';
+          display: inline-block;
+          background-repeat: no-repeat;
+          background-position-x: 50%;
+      		background-position-y: 50%;
+          background-size: 60%;
+          visibility: visible;
+          border: 2.5px solid #279e75;
+      }
+  	input[type='radio']:checked:after {
+      width: 10px;
+      height: 10px;
+      border-radius: 19px;
+      top: 0px;
+      left: 1px;
+      position: relative;
+      background-color: #fff;
+      content: '';
+      display: inline-block;
+      background-position-x: 50%;
+      background-position-y: 50%;
+      background-size: 60%;
+      background-repeat: no-repeat;
+      background-image: url("https://daks2k3a4ib2z.cloudfront.net/58c10bea756d1fb52cfb4a40/58c910cef205ed27637495b1_green.png");
+      visibility: visible;
+      border: 2.5px solid #279e75;
+      padding: 0px;
+  }
+  	.rightblue {
+      width: 10px;
+      height: 10px;
+      border-radius: 19px;
+      top: 0px;
+      left: 1px;
+      position: relative;
+      background-color: #fff;
+      content: '';
+      display: inline-block;
+      background-position-x: 50%;
+      background-position-y: 50%;
+      background-size: 60%;
+      background-repeat: no-repeat;
+      background-image: url("https://daks2k3a4ib2z.cloudfront.net/58c10bea756d1fb52cfb4a40/58c910ce0c20a682364564c1_blue.png");
+      visibility: visible;
+      border: 2.5px solid #204e77;
+      padding: 0px;
+  }
+  	.wrongred {
+      width: 10px;
+      height: 10px;
+      border-radius: 19px;
+      top: 0px;
+      left: 1px;
+      position: relative;
+      background-color: #fff;
+      content: '';
+      display: inline-block;
+      background-position-x: 50%;
+      background-position-y: 50%;
+      background-size: 60%;
+      background-repeat: no-repeat;
+      background-image: url("https://daks2k3a4ib2z.cloudfront.net/58c10bea756d1fb52cfb4a40/58c910ce5d0cc393361671af_red.png");
+      visibility: visible;
+      border: 2.5px solid #fa3349;
+      padding: 0px;
+  }
   </style>
 </head>
 <body class="custbody">
@@ -66,7 +104,7 @@ input[type='radio']:checked:after {
       <a class="buttonclear4 w-button" id="bslink"></a>
     </div>
     <div class="greenbs" id="bsgreen"></div>
-    <div class="questiondiv sheva" id="bsq">
+    <div class="fadeout questiondiv sheva" id="bsq">
       <div class="popup1">
         <div class="header w-clearfix">
           <h1 class="questionh1">בטבע טק ובפלנטקס מייצרים חומרי גלם פעילים לתעשיית התרופות. מהו היקף הייצור בישראל?</h1>
@@ -106,15 +144,15 @@ input[type='radio']:checked:after {
           <h1 class="questionh1">בטבע טק ובפלנטקס מייצרים חומרי גלם פעילים לתעשיית התרופות. מהו היקף הייצור בישראל?</h1>
         </div>
         <div class="divformright">
-          <div class="w-form">
+          <div class="form-wrapper w-form">
             <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio">
                 <input class="button w-radio-input" data-name="Radio 4" id="radio" name="radio-4" type="radio" value="Radio">
                 <label class="answer w-form-label" for="radio">כ- 100 טון</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
-                <input class="button w-radio-input" data-name="Radio" id="radio-2" name="radio" type="radio" value="Radio 2">
-                <label class="answer right w-form-label" for="radio-2">למעלה מ- 1,000 טון</label>
+                <input class="button right w-radio-input" data-name="Radio" id="RightRadioButton" name="radio" type="radio" value="Radio 2">
+                <label class="answer right w-form-label" for="RightRadioButton">למעלה מ- 1,000 טון</label>
               </div>
               <div class="radiobutton w-clearfix w-radio">
                 <input class="button w-radio-input" data-name="Radio" id="radio-3" name="radio" type="radio" value="Radio 3">
@@ -130,7 +168,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconv.png" width="70">
           <h1 class="subheader">ענית תשובה נכונה</h1>
@@ -173,7 +211,7 @@ input[type='radio']:checked:after {
         <div class="divxright"><a class="linkx" href="mainpage.html">X</a>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">___________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divwrong w-clearfix"><img class="icon-v" src="images/iconx.png">
           <h1 class="red subheader" id="wrongbs">ענית תשובה לא נכונה</h1>
@@ -183,7 +221,7 @@ input[type='radio']:checked:after {
         </div>
       </div>
     </div>
-    <div class="secondquestion" id="BsQ2">
+    <div class="fadeout secondquestion" id="BsQ2">
       <div class="popup1">
         <div class="header w-clearfix">
           <h1 class="questionh1">בנוסף למרכז ייצור חומרי גלם פעילים לתעשיית התרופות, מה עוד ניתן למצוא בטבע-טק?</h1>
@@ -249,7 +287,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconv.png">
           <h1 class="subheader">ענית תשובה נכונה</h1>
@@ -292,7 +330,7 @@ input[type='radio']:checked:after {
         <div class="divxright"><a class="linkx" href="mainpage.html">X</a>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">_____________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divwrong w-clearfix"><img class="icon-v" src="images/iconx.png">
           <h1 class="red subheader" id="wrongbs">ענית תשובה לא נכונה</h1>
@@ -371,7 +409,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconv.png">
           <h1 class="subheader">ענית תשובה נכונה</h1>
@@ -414,7 +452,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconx.png">
           <h1 class="red subheader" id="wrongbs">ענית תשובה לא נכונה</h1>
@@ -490,11 +528,11 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
-        <div class="divright set30 w-clearfix"><img class="icon-v" src="images/iconv.png">
+        <div class="divright w-clearfix"><img class="icon-v" src="images/iconv.png">
           <h1 class="subheader">ענית תשובה נכונה</h1>
-          <h1 class="info set31">מרכז התפעול הגדול בטבע נמצא בישראל ומונה 8 מפעלי ייצור – מקרית-שמונה בצפון ועד נאות-חובב בדרום. אתרי התפעול בישראל מייצרים מיליוני מוצרים וביניהם: טבליות, קפסולות, מוצרים סטריליים, משאפים, שקיות עירוי ותורמים לרבע מכלל המכירות של טבע בעולם.</h1>
+          <h1 class="info">מרכז התפעול הגדול בטבע נמצא בישראל ומונה 8 מפעלי ייצור – מקרית-שמונה בצפון ועד נאות-חובב בדרום. אתרי התפעול בישראל מייצרים מיליוני מוצרים וביניהם: טבליות, קפסולות, מוצרים סטריליים, משאפים, שקיות עירוי ותורמים לרבע מכלל המכירות של טבע בעולם.</h1>
           <a class="nextq w-button" href="#" id="LastButtonJE"></a>
         </div>
       </div>
@@ -531,7 +569,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconx.png">
           <h1 class="red set6 subheader" id="wrongbs">ענית תשובה לא נכונה</h1>
@@ -610,7 +648,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconv.png" width="70">
           <h1 class="subheader">ענית תשובה נכונה</h1>
@@ -651,10 +689,10 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconx.png" width="70">
-          <h1 class="red subheader">ענית תשובה נכונה</h1>
+          <h1 class="red subheader">ענית תשובה לא נכונה</h1>
           <h1 class="subwrong">נסה שנית</h1>
         </div>
         <a class="nextq w-button" id="ButtonForQ1"></a>
@@ -726,7 +764,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconv.png" width="70">
           <h1 class="subheader">ענית תשובה נכונה</h1>
@@ -767,7 +805,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconx.png" width="70">
           <h1 class="red subheader">ענית תשובה לא נכונה</h1>
@@ -847,7 +885,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconv.png" width="70">
           <h1 class="subheader">ענית תשובה נכונה</h1>
@@ -888,7 +926,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconx.png" width="70">
           <h1 class="red subheader">ענית תשובה לא נכונה</h1>
@@ -963,7 +1001,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconv.png" width="70">
           <h1 class="subheader">ענית תשובה נכונה</h1>
@@ -1004,7 +1042,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconx.png" width="70">
           <h1 class="red subheader">ענית תשובה לא נכונה</h1>
@@ -1084,7 +1122,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconv.png" width="70">
           <h1 class="subheader">ענית תשובה נכונה</h1>
@@ -1125,7 +1163,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconx.png" width="70">
           <h1 class="red subheader">ענית תשובה לא נכונה</h1>
@@ -1200,7 +1238,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconv.png" width="70">
           <h1 class="subheader">ענית תשובה נכונה</h1>
@@ -1241,7 +1279,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconx.png" width="70">
           <h1 class="red subheader">ענית תשובה לא נכונה</h1>
@@ -1321,7 +1359,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconv.png" width="70">
           <h1 class="subheader">ענית תשובה נכונה</h1>
@@ -1362,7 +1400,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconx.png" width="70">
           <h1 class="red subheader">ענית תשובה לא נכונה</h1>
@@ -1437,7 +1475,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconv.png" width="70">
           <h1 class="subheader">ענית תשובה נכונה</h1>
@@ -1478,7 +1516,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divright w-clearfix"><img class="icon-v" src="images/iconx.png" width="70">
           <h1 class="red subheader">ענית תשובה לא נכונה</h1>
@@ -1494,7 +1532,7 @@ input[type='radio']:checked:after {
       <a class="buttonclear3 w-button" id="ashdodlink"></a>
     </div>
     <div class="greenashdod" id="ashdodgreen"></div>
-    <div class="ashdod questiondiv" id="ashdodq">
+    <div class="ashdod questiondiv" id="AshdodQ1new">
       <div class="popup1">
         <div class="header w-clearfix">
           <h1 class="questionh1">מה מייחד את המוצרים המיוצרים באשדוד?</h1>
@@ -1562,7 +1600,7 @@ input[type='radio']:checked:after {
         <div class="divxright"><a class="linkx" href="mainpage.html">X</a>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="lastdiv w-clearfix"><img class="icon-v" src="images/iconv.png">
           <h1 class="subheader">ענית תשובה נכונה</h1>
@@ -1602,11 +1640,12 @@ input[type='radio']:checked:after {
         </div>
         <a class="nextq w-button" href="#" id="BackToQ1Ashdod"></a>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="lastdiv w-clearfix"><img class="icon-v" src="images/iconx.png">
           <h1 class="red subheader">ענית תשובה לא נכונה</h1>
           <h1 class="subred">נסה שנית</h1>
+          <h1 class="subwrong">נסה שנית</h1>
         </div>
         <div class="divxright"><a class="linkx" href="mainpage.html">X</a>
         </div>
@@ -1618,7 +1657,7 @@ input[type='radio']:checked:after {
           <h1 class="questionh1">מהו המוצר בעל היקף הייצור הגדול ביותר במפעל באשדוד ?</h1>
         </div>
         <div class="divform">
-          <div class="form w-form">
+          <div class="w-form">
             <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
               <div class="radiobutton w-clearfix w-radio" id="RadioAshdod4">
                 <input class="button w-radio-input" data-name="Radio" id="RadioAshdod-5" name="radio" type="radio" value="RadioAshdod4">
@@ -1676,7 +1715,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="divxright"><a class="linkx" href="mainpage.html">X</a>
         </div>
@@ -1707,9 +1746,6 @@ input[type='radio']:checked:after {
                 <input class="button w-radio-input" data-name="Radio" id="RadioAshdod-7" name="radio" type="radio" value="RadioAshdod6">
                 <label class="answer w-form-label" for="RadioAshdod-7">אופטלגין טיפות</label>
               </div>
-              <div class="divline">
-                <h6 class="line">____________________________________________________________________________________________</h6>
-              </div>
             </form>
             <div class="w-form-done">
               <div>Thank you! Your submission has been received!</div>
@@ -1719,10 +1755,13 @@ input[type='radio']:checked:after {
             </div>
           </div>
         </div>
-        <div class="_85 lastdiv w-clearfix"><img class="icon-v" src="images/iconx.png">
+        <div class="divline">
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
+        </div>
+        <div class="divright w-clearfix"><img class="icon-v" src="images/iconx.png">
           <h1 class="red set6 subheader">ענית תשובה לא נכונה</h1>
+          <h1 class="subwrong">נסה שנית</h1>
           <a class="nextq w-button" href="#" id="BackToQ2Ashdod"></a>
-          <h1 class="subred">נסה שנית</h1>
         </div>
         <div class="divxright"><a class="linkx" href="mainpage.html">X</a>
         </div>
@@ -1797,7 +1836,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="lastdiv w-clearfix"><a class="nextbutton w-button" href="#">Button Text</a><img class="icon-v" src="images/iconv.png">
           <h1 class="subheader">ענית תשובה נכונה</h1>
@@ -1839,7 +1878,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="lastdiv w-clearfix"><img class="icon-v" src="images/iconx.png">
           <h1 class="red subheader">ענית תשובה לא נכונה</h1>
@@ -1914,7 +1953,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="lastdiv w-clearfix"><img class="icon-v set55" src="images/iconv.png">
           <h1 class="subheader">ענית תשובה נכונה</h1>
@@ -1955,12 +1994,12 @@ input[type='radio']:checked:after {
             </div>
           </div>
         </div>
-        <div class="divline set64">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+        <div class="divline">
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
-        <div class="lastdiv set63 w-clearfix"><img class="_303 icon-v" src="images/iconx.png">
+        <div class="divright w-clearfix"><img class="icon-v" src="images/iconx.png">
           <h1 class="red subheader">ענית תשובה לא נכונה</h1>
-          <h1 class="subred">נסה שנית</h1>
+          <h1 class="subwrong">נסה שנית</h1>
         </div>
         <div class="divxright"><a class="linkx" href="mainpage.html">X</a>
         </div>
@@ -2036,7 +2075,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="lastdiv w-clearfix"><img class="icon-v" src="images/iconv.png">
           <h1 class="subheader">ענית תשובה נכונה</h1>
@@ -2077,7 +2116,7 @@ input[type='radio']:checked:after {
           </div>
         </div>
         <div class="divline">
-          <h6 class="line">______________________________________________________________________________________________________</h6>
+          <h6 class="line">__________________________________________________________________________________________________________________________________________________________</h6>
         </div>
         <div class="lastdiv w-clearfix"><img class="icon-v" src="images/iconx.png">
           <h1 class="red set6 subheader">ענית תשובה לא נכונה</h1>
@@ -2090,7 +2129,14 @@ input[type='radio']:checked:after {
     </div>
     <div class="picrehovot" id="PictureRehovot"></div>
   </div>
-  <h1 class="divnotavail">Not available on mobile</h1>
+  <h1 class="divnotavail">המשחק אינו זמין במובייל</h1>
+  <div class="div-remove-all"></div>
+  <div class="endofgame" id="ENDOFGAME">
+    <h1 class="end headline">כל הכבוד!</h1>
+    <h1 class="end subheadline">בואו לגלות מה עוד עושים <br>באתרי טבע בישראל</h1>
+    <a class="end nextq w-button" href="http://www.teva.co.il/"></a>
+    <div class="divlogo end"></div>
+  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
